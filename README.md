@@ -1,6 +1,6 @@
 # Frontend Mentor - Newsletter sign-up form with success message solution
 
-This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). 
 
 ## Table of contents
 
@@ -42,8 +42,8 @@ For *mobile* and *mobile with modal* screenshots, check out the screenshot folde
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [See my solution on GitHub](https://github.com/jguleserian/FMC-Newsletter-signup-with-success-message)
+- Live Site URL: [Click here to see the site live](https://jguleserian.github.io/FMC-Newsletter-signup-with-success-message/)
 
 ## My process
 
@@ -106,4 +106,3 @@ With respect to CSS, again, I want to learn to make my pages more engaging to my
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/jguleserian)
 - LinkedIn - [@yourusername](https://www.linkedin.com/jeffguleserian)
 
-# FMC-Newsletter-signup-with-success-message
