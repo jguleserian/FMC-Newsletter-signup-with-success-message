@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main id="main">
+      <section id="sign-up">
+        <div id="left">
+          <h1 aria-label="Newsletter Signup">Stay updated!</h1>
+
+          <p class="signup-text">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+          <ul>
+            <li>
+              Product discovery and building what
+              <span class="indent">matters</span>
+            </li>
+            <li>
+              Measuring to ensure updates are a
+              <span class="indent">success</span>
+            </li>
+            <li>And much more!</li>
+          </ul>
+
+          <form>
+            <div id="label-container">
+              <label for="email" aria-label="enter email address"
+                >Email address</label
+              >
+              <label class="error-text">Valid email required</label>
+            </div>
+            <input
+              class="email-input"
+              id="email"
+              name="email"
+              type="email"
+              placeholder="email@company.com"
+              required
+              autocomplete="off"
+            />
+            <button class="submit" type="submit">
+              Subscribe to monthly newsletter
+            </button>
+          </form>
+        </div>
+        <div id="right"></div>
+      </section>
+      <section id="success-message" class="hide">
+        <div id="modal">
+          <img
+            class="modal-icon"
+            src="/assets/images/icon-success.svg"
+            alt="check-mark affirmation"
+          />
+          <h1 class="modal-title">Thanks for subscribing!</h1>
+
+          <p class="modal-text">
+            A confirmation email has been sent to
+            <span class="text-insert">ash@loremcompany.com</span>. Please open
+            it and click the button inside to confirm your subscription.
+          </p>
+          <button class="modal-button" type="button">Dismiss message</button>
+        </div>
+      </section>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Jeff Guleserian</a>.
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
